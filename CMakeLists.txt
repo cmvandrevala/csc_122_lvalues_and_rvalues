@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.15)
+
+project("LValues and RValues")
+
+set (CMAKE_CXX_STANDARD 14)
+
+add_executable(1_definitions 1_definitions.cpp)
+add_executable(2_functions_returning_rvalues 2_functions_returning_rvalues.cpp)
+add_executable(3_functions_returning_lvalues 3_functions_returning_lvalues.cpp)
+add_executable(4_lvalue_to_rvalue_conversion 4_lvalue_to_rvalue_conversion.cpp)
+add_executable(5_references 5_references.cpp)
+add_executable(6_lvalue_references 6_lvalue_references.cpp)
+add_executable(7_rvalue_references 7_rvalue_references.cpp)
+add_executable(8_lvalue_and_rvalue_references 8_lvalue_and_rvalue_references.cpp)
+add_executable(9_default_copy_constructor 9_default_copy_constructor.cpp)
+add_executable(10_shallow_copy_constructor 10_shallow_copy_constructor.cpp)
+add_executable(11_deep_copy_constructor 11_deep_copy_constructor.cpp)
+add_executable(12_copy_and_swap 12_copy_and_swap.cpp)
